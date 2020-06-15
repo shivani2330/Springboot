@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS Customers;
+
+CREATE TABLE Customers (
+  cid VARCHAR(10) NOT NULL,
+  cfname VARCHAR(100) NOT NULL
+  clname VARCHAR(100) NOT NULL
+);
